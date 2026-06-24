@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #161B37ff;
+}
+button{
+    background-color: inherit;
+    border: 1px solid #DBDFE6ff;
+    border-radius: 3px;
+    padding: 4px;
+    font-family: "Orbitron";
+    font-weight: bold;
+    width: 50px;
+    height: 30px;
+    color: white;
+    
+}
+#dashboard,#dashboardb{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-color: black;
+    font-family: "Orbitron";
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    border-radius: 6px;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 10px;
+}
+.basketball{
+    height: 500px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
